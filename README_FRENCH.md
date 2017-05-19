@@ -8,7 +8,7 @@ ExyCSS est un framework CSS qui simplifie le développement de sites web, tout e
 Flexible, il vous permet de concevoir facilement et rapidement vos sites web.
 ## Installation
 Tout d'abord, accédez au site officiel et téléchargez la version minifiée, ou téléchargez le contenu de ce dépôt. Ensuite, vous devez suivre le didacticiel, sur le site officiel, pour implémenter les composants dans vos projets. Enfin, explorez les possibilités !
-## Fondapentaux
+## Fondamentaux
 La syntaxe de tous les éléments est simple et vous permet de les localiser rapidement et de voir à quoi ils correspondent ou ce qu'ils contiennent.
 
 exy-**categorie**\_\_ *valeur* **-options**
