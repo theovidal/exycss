@@ -1,4 +1,5 @@
 # ExyCSS - Bienvenue
+![Bannière ExyCSS](https://exybore.becauseofprog.fr/exycss/exycss_banner.png)
 Vous êtes sur le dépôt GitHub du framework ExyCSS. Voici le guide de démarrage.
 
 ----------
