@@ -1,4 +1,5 @@
 # ExyCSS - Welcome
+![ExyCSS banner](https://exybore.becauseofprog.fr/exycss/exycss_banner.png)
 You're on the ExyCSS framework repository. Here is the starter guide.
 
 ----------
