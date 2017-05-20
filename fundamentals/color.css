@@ -1,0 +1,132 @@
+.exy-color__grey-back {
+  background-color: #9e9e9e;
+}
+.exy-color__white-back {
+  background-color: #ffffff;
+}
+.exy-color__black-back {
+  background-color: #000000;
+}
+.exy-color__white {
+  color: #ffffff;
+}
+.exy-color__black {
+  color: #000000;
+}
+
+/* --- RED --- */
+
+.exy-color__red-100 {
+  color: #ffcdd2;
+}
+.exy-color__red-200 {
+  color: #ef9a9a;
+}
+.exy-color__red-300 {
+  color: #e57373;
+}
+.exy-color__red-400 {
+  color: #ef5350;
+}
+.exy-color__red-500 {
+  color: #f44336;
+}
+.exy-color__red-600 {
+  color: #e53935;
+}
+.exy-color__red-700 {
+  color: #d32f2f;
+}
+.exy-color__red-800 {
+  color: #c62828;
+}
+.exy-color__red-900 {
+  color: #b71c1c;
+}
+
+.exy-color__red-100-back {
+  background-color: #ffcdd2;
+}
+.exy-color__red-200-back {
+  background-color: #ef9a9a;
+}
+.exy-color__red-300-back {
+  background-color: #e57373;
+}
+.exy-color__red-400-back {
+  background-color: #ef5350;
+}
+.exy-color__red-500-back {
+  background-color: #f44336;
+}
+.exy-color__red-600-back {
+  background-color: #e53935;
+}
+.exy-color__red-700-back {
+  background-color: #d32f2f;
+}
+.exy-color__red-800-back {
+  background-color: #c62828;
+}
+.exy-color__red-900-back {
+  background-color: #b71c1c;
+}
+
+
+/* --- PINK --- */
+
+.exy-color__pink-100 {
+  color: #f8bbd0;
+}
+.exy-color__pink-200 {
+  color: #f48fb1;
+}
+.exy-color__pink-300 {
+  color: #f06292;
+}
+.exy-color__pink-400 {
+  color: #ec407a;
+}
+.exy-color__pink-500 {
+  color: #e91e63;
+}
+.exy-color__pink-600 {
+  color: #d81b60;
+}
+.exy-color__pink-700 {
+  color: #c2185b;
+}
+.exy-color__pink-800 {
+  color: #ad1457;
+}
+.exy-color__pink-900 {
+  color: #880e4f;
+}
+
+.exy-color__pink-100-back {
+  background-color: #f8bbd0;
+}
+.exy-color__pink-200-back {
+  background-color: #f48fb1;
+}
+.exy-color__pink-300-back {
+  background-color: #f06292;
+}
+.exy-color__pink-400-back {
+  background-color: #ec407a;
+}
+.exy-color__pink-500-back {
+  background-color: #e91e63;
+}
+.exy-color__pink-600-back {
+  background-color: #d81b60;
+}
+.exy-color__pink-700-back {
+  background-color: #c2185b;
+}
+.exy-color__pink-800-back {
+  background-color: #ad1457;
+}
+.exy-color__pink-900-back {
+  background-color: #880e4f;
+}
