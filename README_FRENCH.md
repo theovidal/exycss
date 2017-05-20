@@ -23,4 +23,6 @@ Maintenant, allez créer votre premier site web avec le framework ExyCSS !
 
 **Dépôt GitHub :** [https://github.com/Exybore/exycss](https://github.com/Exybore/exycss "Dépôt GitHub")
 
+**Chat Gitter :** [https://gitter.im/exybore/exycss](https://gitter.im/exybore/exycss "Chat gitter")
+
 **Chat Discord (support et aide) :** [https://discord.gg/DhE3vaC](https://discord.gg/DhE3vaC "Chat Discord &#40;support et aide&#41;")
