@@ -130,3 +130,62 @@
 .exy-color__pink-900-back {
   background-color: #880e4f;
 }
+
+
+/* --- PURPLE --- */
+
+.exy-color__purple-100 {
+  color: #e1bee7;
+}
+.exy-color__purple-200 {
+  color: #ce93d8;
+}
+.exy-color__purple-300 {
+  color: #ba68c8;
+}
+.exy-color__purple-400 {
+  color: #ab47bc;
+}
+.exy-color__purple-500 {
+  color: #9c27b0;
+}
+.exy-color__purple-600 {
+  color: #8e24aa;
+}
+.exy-color__purple-700 {
+  color: #7b1fa2;
+}
+.exy-color__purple-800 {
+  color: #6a1b9a;
+}
+.exy-color__purple-900 {
+  color: #4a148c;
+}
+
+.exy-color__purple-100-back {
+  background-color: #e1bee7;
+}
+.exy-color__purple-200-back {
+  background-color: #ce93d8;
+}
+.exy-color__purple-300-back {
+  background-color: #ba68c8;
+}
+.exy-color__purple-400-back {
+  background-color: #ab47bc;
+}
+.exy-color__purple-500-back {
+  background-color: #9c27b0;
+}
+.exy-color__purple-600-back {
+  background-color: #8e24aa;
+}
+.exy-color__purple-700-back {
+  background-color: #7b1fa2;
+}
+.exy-color__purple-800-back {
+  background-color: #6a1b9a;
+}
+.exy-color__purple-900-back {
+  background-color: #4a148c;
+}
