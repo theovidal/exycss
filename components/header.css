@@ -1,0 +1,39 @@
+header.exy-header__container {
+  background-color: blue;
+  padding: 3px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+header.exy-header__container div.exy-header__titler {
+  display: flex;
+  align-items: center;
+}
+header.exy-header__container div.exy-header__titler span.exy-header__title {
+  font-weight: 400;
+  color: #fff;
+  font-size: 30px;
+  margin-left: 5px;
+}
+header.exy-header__container div.exy-header__titler img.exy-header__logo {
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+}
+header.exy-header__container div.exy-header__link-container {
+  display: flex;
+  align-items: center;
+}
+header.exy-header__container div.exy-header__link-container a.exy-header__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+header.exy-header__container div.exy-header__link-container a.exy-header__link:hover {
+  background-color: inherit;
+  color: inherit;
+  transition: 0.3s;
+  box-shadow: 5px 5px 5px black;
+}

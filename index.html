@@ -5,6 +5,7 @@
 
   <link rel="stylesheet" type="text/css" href="components/text.css">
   <link rel="stylesheet" type="text/css" href="components/tools.css">
+  <link rel="stylesheet" type="text/css" href="components/header.css">
   <link rel="stylesheet" type="text/css" href="fundamentals/basehtml.css">
   <link rel="stylesheet" type="text/css" href="fundamentals/color.css">
   <link rel="stylesheet" type="text/css" href="fundamentals/grid.css">
@@ -17,6 +18,18 @@
 </head>
 
 <body>
+
+  <header class="exy-header__container exy-color__red-600-back">
+    <div class="exy-header__titler">
+      <img src="https://exybore.github.io/img/exycss.png" alt="Logo" class="exy-header__logo" />
+      <span class="exy-header__title">ExyCSS</span>
+    </div>
+    <div class="exy-header__link-container">
+      <a href="#!" class="exy-header__link">Link 1</a>
+      <a href="#!" class="exy-header__link">Link 2</a>
+      <a href="#!" class="exy-header__link">Link 3</a>
+    </div>
+  </header>
 
   <h1>Title 1</h1>
   <h2>Title 2</h2>
@@ -59,35 +72,47 @@
 
   </div>
 
-  <div class="exy-color__red-100-back exy-grid__5-s exy-tool__enlarge-20">Red 100</div>
-  <div class="exy-color__red-200-back exy-grid__5-s exy-tool__enlarge-20">Red 200</div>
-  <div class="exy-color__red-300-back exy-grid__5-s exy-tool__enlarge-20">Red 300</div>
-  <div class="exy-color__red-400-back exy-grid__5-s exy-tool__enlarge-20">Red 400</div>
-  <div class="exy-color__red-500-back exy-grid__5-s exy-tool__enlarge-20">Red 500</div>
-  <div class="exy-color__red-600-back exy-grid__5-s exy-tool__enlarge-20">Red 600</div>
-  <div class="exy-color__red-700-back exy-grid__5-s exy-tool__enlarge-20">Red 700</div>
-  <div class="exy-color__red-800-back exy-grid__5-s exy-tool__enlarge-20">Red 800</div>
-  <div class="exy-color__red-900-back exy-grid__5-s exy-tool__enlarge-20">Red 900</div>
+  <div class="exy-grid__container exy-color__grey-back">
 
-  <div class="exy-color__pink-100-back exy-grid__5-s exy-tool__enlarge-20">Pink 100</div>
-  <div class="exy-color__pink-200-back exy-grid__5-s exy-tool__enlarge-20">Pink 200</div>
-  <div class="exy-color__pink-300-back exy-grid__5-s exy-tool__enlarge-20">Pink 300</div>
-  <div class="exy-color__pink-400-back exy-grid__5-s exy-tool__enlarge-20">Pink 400</div>
-  <div class="exy-color__pink-500-back exy-grid__5-s exy-tool__enlarge-20">Pink 500</div>
-  <div class="exy-color__pink-600-back exy-grid__5-s exy-tool__enlarge-20">Pink 600</div>
-  <div class="exy-color__pink-700-back exy-grid__5-s exy-tool__enlarge-20">Pink 700</div>
-  <div class="exy-color__pink-800-back exy-grid__5-s exy-tool__enlarge-20">Pink 800</div>
-  <div class="exy-color__pink-900-back exy-grid__5-s exy-tool__enlarge-20">Pink 900</div>
+    <h1 class="exy-text__center exy-grid__20-s">Colours</h1>
 
-  <div class="exy-color__purple-100-back exy-grid__5-s exy-tool__enlarge-20">Purple 100</div>
-  <div class="exy-color__purple-200-back exy-grid__5-s exy-tool__enlarge-20">Purple 200</div>
-  <div class="exy-color__purple-300-back exy-grid__5-s exy-tool__enlarge-20">Purple 300</div>
-  <div class="exy-color__purple-400-back exy-grid__5-s exy-tool__enlarge-20">Purple 400</div>
-  <div class="exy-color__purple-500-back exy-grid__5-s exy-tool__enlarge-20">Purple 500</div>
-  <div class="exy-color__purple-600-back exy-grid__5-s exy-tool__enlarge-20">Purple 600</div>
-  <div class="exy-color__purple-700-back exy-grid__5-s exy-tool__enlarge-20">Purple 700</div>
-  <div class="exy-color__purple-800-back exy-grid__5-s exy-tool__enlarge-20">Purple 800</div>
-  <div class="exy-color__purple-900-back exy-grid__5-s exy-tool__enlarge-20">Purple 900</div>
+    <div class="exy-grid__10-s exy-grid__5-t exy-grid__2-d exy-tool__spaced-10">
+      <div class="exy-color__red-100-back exy-tool__enlarge-20">Red 100</div>
+      <div class="exy-color__red-200-back exy-tool__enlarge-20">Red 200</div>
+      <div class="exy-color__red-300-back exy-tool__enlarge-20">Red 300</div>
+      <div class="exy-color__red-400-back exy-tool__enlarge-20">Red 400</div>
+      <div class="exy-color__red-500-back exy-tool__enlarge-20">Red 500</div>
+      <div class="exy-color__red-600-back exy-tool__enlarge-20">Red 600</div>
+      <div class="exy-color__red-700-back exy-tool__enlarge-20">Red 700</div>
+      <div class="exy-color__red-800-back exy-tool__enlarge-20">Red 800</div>
+      <div class="exy-color__red-900-back exy-tool__enlarge-20">Red 900</div>
+    </div>
+
+    <div class="exy-grid__10-s exy-grid__5-t exy-grid__2-d exy-tool__spaced-10">
+      <div class="exy-color__pink-100-back exy-tool__enlarge-20">Pink 100</div>
+      <div class="exy-color__pink-200-back exy-tool__enlarge-20">Pink 200</div>
+      <div class="exy-color__pink-300-back exy-tool__enlarge-20">Pink 300</div>
+      <div class="exy-color__pink-400-back exy-tool__enlarge-20">Pink 400</div>
+      <div class="exy-color__pink-500-back exy-tool__enlarge-20">Pink 500</div>
+      <div class="exy-color__pink-600-back exy-tool__enlarge-20">Pink 600</div>
+      <div class="exy-color__pink-700-back exy-tool__enlarge-20">Pink 700</div>
+      <div class="exy-color__pink-800-back exy-tool__enlarge-20">Pink 800</div>
+      <div class="exy-color__pink-900-back exy-tool__enlarge-20">Pink 900</div>
+    </div>
+
+    <div class="exy-grid__10-s exy-grid__5-t exy-grid__2-d exy-tool__spaced-10">
+      <div class="exy-color__purple-100-back exy-tool__enlarge-20">Purple 100</div>
+      <div class="exy-color__purple-200-back exy-tool__enlarge-20">Purple 200</div>
+      <div class="exy-color__purple-300-back exy-tool__enlarge-20">Purple 300</div>
+      <div class="exy-color__purple-400-back exy-tool__enlarge-20">Purple 400</div>
+      <div class="exy-color__purple-500-back exy-tool__enlarge-20">Purple 500</div>
+      <div class="exy-color__purple-600-back exy-tool__enlarge-20">Purple 600</div>
+      <div class="exy-color__purple-700-back exy-tool__enlarge-20">Purple 700</div>
+      <div class="exy-color__purple-800-back exy-tool__enlarge-20">Purple 800</div>
+      <div class="exy-color__purple-900-back exy-tool__enlarge-20">Purple 900</div>
+    </div>
+
+  </div>
 
 </body>
 </html>
