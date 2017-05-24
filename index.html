@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>ExyCSS Showcase</title>
 
+  <link rel="stylesheet" type="text/css" href="media/images.css">
   <link rel="stylesheet" type="text/css" href="components/text.css">
   <link rel="stylesheet" type="text/css" href="components/tools.css">
   <link rel="stylesheet" type="text/css" href="components/header.css">
   <link rel="stylesheet" type="text/css" href="fundamentals/basehtml.css">
   <link rel="stylesheet" type="text/css" href="fundamentals/color.css">
   <link rel="stylesheet" type="text/css" href="fundamentals/grid.css">
+
+  <script src="javascript/nav.js" type="text/javascript"></script>
 
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
@@ -20,16 +23,25 @@
 <body>
 
   <header class="exy-header__container exy-color__red-600-back">
+    <div class="exy-header__mobile-menu">
+      <a class="exy-header__mobile-btn" href="#!"><i class="material-icons">menu</i></a>
+    </div>
     <div class="exy-header__titler">
-      <img src="https://exybore.github.io/img/exycss.png" alt="Logo" class="exy-header__logo" />
+      <img src="https://exybore.github.io/img/exycss.png" alt="Logo" class="exy-header__logo exy-img__round" />
       <span class="exy-header__title">ExyCSS</span>
     </div>
     <div class="exy-header__link-container">
-      <a href="#!" class="exy-header__link">Link 1</a>
-      <a href="#!" class="exy-header__link">Link 2</a>
-      <a href="#!" class="exy-header__link">Link 3</a>
+      <a href="#!" class="exy-header__link">Home</a>
+      <a href="#!" class="exy-header__link">Git repo</a>
+      <a href="#!" class="exy-header__link">Wiki</a>
     </div>
   </header>
+  <ul class="exy-header__mobile-nav exy-color__red-500-back">
+    <li><a href="#!" class="exy-header__link">Home</a></li>
+    <li><a href="#!" class="exy-header__link">Git repo</a></li>
+    <li><a href="#!" class="exy-header__link">Wiki</a></li>
+    <li><a href="#!" class="exy-header__link exy-header__close-mobile" onclick="mobile_desactivate();"><i class="material-icons">close</i></a></li>
+  </ul>
 
   <h1>Title 1</h1>
   <h2>Title 2</h2>
@@ -76,7 +88,7 @@
 
     <h1 class="exy-text__center exy-grid__20-s">Colours</h1>
 
-    <div class="exy-grid__10-s exy-grid__5-t exy-grid__2-d exy-tool__spaced-10">
+    <div class="exy-grid__10-s exy-grid__5-t exy-grid__4-d">
       <div class="exy-color__red-100-back exy-tool__enlarge-20">Red 100</div>
       <div class="exy-color__red-200-back exy-tool__enlarge-20">Red 200</div>
       <div class="exy-color__red-300-back exy-tool__enlarge-20">Red 300</div>
@@ -88,7 +100,7 @@
       <div class="exy-color__red-900-back exy-tool__enlarge-20">Red 900</div>
     </div>
 
-    <div class="exy-grid__10-s exy-grid__5-t exy-grid__2-d exy-tool__spaced-10">
+    <div class="exy-grid__10-s exy-grid__5-t exy-grid__4-d">
       <div class="exy-color__pink-100-back exy-tool__enlarge-20">Pink 100</div>
       <div class="exy-color__pink-200-back exy-tool__enlarge-20">Pink 200</div>
       <div class="exy-color__pink-300-back exy-tool__enlarge-20">Pink 300</div>
@@ -100,7 +112,7 @@
       <div class="exy-color__pink-900-back exy-tool__enlarge-20">Pink 900</div>
     </div>
 
-    <div class="exy-grid__10-s exy-grid__5-t exy-grid__2-d exy-tool__spaced-10">
+    <div class="exy-grid__10-s exy-grid__5-t exy-grid__4-d">
       <div class="exy-color__purple-100-back exy-tool__enlarge-20">Purple 100</div>
       <div class="exy-color__purple-200-back exy-tool__enlarge-20">Purple 200</div>
       <div class="exy-color__purple-300-back exy-tool__enlarge-20">Purple 300</div>
@@ -110,6 +122,54 @@
       <div class="exy-color__purple-700-back exy-tool__enlarge-20">Purple 700</div>
       <div class="exy-color__purple-800-back exy-tool__enlarge-20">Purple 800</div>
       <div class="exy-color__purple-900-back exy-tool__enlarge-20">Purple 900</div>
+    </div>
+
+    <div class="exy-grid__10-s exy-grid__5-t exy-grid__4-d">
+      <div class="exy-color__d-purple-100-back exy-tool__enlarge-20">D-Purple 100</div>
+      <div class="exy-color__d-purple-200-back exy-tool__enlarge-20">D-Purple 200</div>
+      <div class="exy-color__d-purple-300-back exy-tool__enlarge-20">D-Purple 300</div>
+      <div class="exy-color__d-purple-400-back exy-tool__enlarge-20">D-Purple 400</div>
+      <div class="exy-color__d-purple-500-back exy-tool__enlarge-20">D-Purple 500</div>
+      <div class="exy-color__d-purple-600-back exy-tool__enlarge-20">D-Purple 600</div>
+      <div class="exy-color__d-purple-700-back exy-tool__enlarge-20">D-Purple 700</div>
+      <div class="exy-color__d-purple-800-back exy-tool__enlarge-20">D-Purple 800</div>
+      <div class="exy-color__d-purple-900-back exy-tool__enlarge-20">D-Purple 900</div>
+    </div>
+
+    <div class="exy-grid__10-s exy-grid__5-t exy-grid__4-d">
+      <div class="exy-color__indigo-100-back exy-tool__enlarge-20">Indigo 100</div>
+      <div class="exy-color__indigo-200-back exy-tool__enlarge-20">Indigo 200</div>
+      <div class="exy-color__indigo-300-back exy-tool__enlarge-20">Indigo 300</div>
+      <div class="exy-color__indigo-400-back exy-tool__enlarge-20">Indigo 400</div>
+      <div class="exy-color__indigo-500-back exy-tool__enlarge-20">Indigo 500</div>
+      <div class="exy-color__indigo-600-back exy-tool__enlarge-20">Indigo 600</div>
+      <div class="exy-color__indigo-700-back exy-tool__enlarge-20">Indigo 700</div>
+      <div class="exy-color__indigo-800-back exy-tool__enlarge-20">Indigo 800</div>
+      <div class="exy-color__indigo-900-back exy-tool__enlarge-20">Indigo 900</div>
+    </div>
+
+    <div class="exy-grid__10-s exy-grid__5-t exy-grid__4-d">
+      <div class="exy-color__blue-100-back exy-tool__enlarge-20">Blue 100</div>
+      <div class="exy-color__blue-200-back exy-tool__enlarge-20">Blue 200</div>
+      <div class="exy-color__blue-300-back exy-tool__enlarge-20">Blue 300</div>
+      <div class="exy-color__blue-400-back exy-tool__enlarge-20">Blue 400</div>
+      <div class="exy-color__blue-500-back exy-tool__enlarge-20">Blue 500</div>
+      <div class="exy-color__blue-600-back exy-tool__enlarge-20">Blue 600</div>
+      <div class="exy-color__blue-700-back exy-tool__enlarge-20">Blue 700</div>
+      <div class="exy-color__blue-800-back exy-tool__enlarge-20">Blue 800</div>
+      <div class="exy-color__blue-900-back exy-tool__enlarge-20">Blue 900</div>
+    </div>
+
+    <div class="exy-grid__10-s exy-grid__5-t exy-grid__4-d">
+      <div class="exy-color__l-blue-100-back exy-tool__enlarge-20">L-Blue 100</div>
+      <div class="exy-color__l-blue-200-back exy-tool__enlarge-20">L-Blue 200</div>
+      <div class="exy-color__l-blue-300-back exy-tool__enlarge-20">L-Blue 300</div>
+      <div class="exy-color__l-blue-400-back exy-tool__enlarge-20">L-Blue 400</div>
+      <div class="exy-color__l-blue-500-back exy-tool__enlarge-20">L-Blue 500</div>
+      <div class="exy-color__l-blue-600-back exy-tool__enlarge-20">L-Blue 600</div>
+      <div class="exy-color__l-blue-700-back exy-tool__enlarge-20">L-Blue 700</div>
+      <div class="exy-color__l-blue-800-back exy-tool__enlarge-20">L-Blue 800</div>
+      <div class="exy-color__l-blue-900-back exy-tool__enlarge-20">L-Blue 900</div>
     </div>
 
   </div>

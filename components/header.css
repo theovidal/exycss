@@ -1,39 +1,104 @@
+/* mobile nav DON'T SHOW IT */
+ul.exy-header__mobile-nav {
+  display: none;
+  list-style-type: none;
+
+  margin: 0px;
+  padding-left: 5px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  justify-content: space-around;
+}
+ul.exy-header__mobile-nav a.exy-header__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+/* header container */
 header.exy-header__container {
-  background-color: blue;
   padding: 3px;
   height: 50px;
   display: flex;
   justify-content: space-between;
 }
+
+/* title box */
 header.exy-header__container div.exy-header__titler {
   display: flex;
   align-items: center;
 }
+
+/* title */
 header.exy-header__container div.exy-header__titler span.exy-header__title {
   font-weight: 400;
   color: #fff;
   font-size: 30px;
   margin-left: 5px;
 }
+
+/* logo */
 header.exy-header__container div.exy-header__titler img.exy-header__logo {
-  border-radius: 50px;
   height: 40px;
   width: 40px;
 }
-header.exy-header__container div.exy-header__link-container {
-  display: flex;
-  align-items: center;
+
+@media screen and (min-width: 600px) {
+  /* link container */
+  header.exy-header__container div.exy-header__link-container {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Link */
+  header.exy-header__container div.exy-header__link-container a.exy-header__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+  }
+
+  /* hover link */
+  header.exy-header__container div.exy-header__link-container a.exy-header__link:hover {
+
+  }
+
+  /* mobile button */
+  header.exy-header__container div.exy-header__mobile-menu {
+    display: none;
+  }
 }
-header.exy-header__container div.exy-header__link-container a.exy-header__link {
-  text-decoration: none;
-  color: #fff;
-  font-size: 17px;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-header.exy-header__container div.exy-header__link-container a.exy-header__link:hover {
-  background-color: inherit;
-  color: inherit;
-  transition: 0.3s;
-  box-shadow: 5px 5px 5px black;
+@media screen and (max-width: 600px) {
+
+  /* title */
+  header.exy-header__container div.exy-header__titler img.exy-header__logo {
+    margin-left: -5px;
+  }
+
+  /* header container */
+  header.exy-header__container {
+    justify-content: space-between;
+  }
+
+  /* link container */
+  header.exy-header__container div.exy-header__link-container a.exy-header__link {
+    display: none;
+  }
+
+  /* mobile button */
+  header.exy-header__container div.exy-header__mobile-menu {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+
+  }
+  header.exy-header__container div.exy-header__mobile-menu a.exy-header__mobile-btn {
+    color: #fff;
+    text-decoration: none;
+  }
 }

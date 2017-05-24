@@ -316,5 +316,6 @@
 
 .exy-grid__container {
   display: flex;
-  max-width: 100% !important;
+  width: 100% !important;
+  flex-wrap: wrap;
 }
