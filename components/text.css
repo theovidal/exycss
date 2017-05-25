@@ -1,0 +1,83 @@
+span.exy-text__subtitle {
+  color: #757575;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.exy-text__center {
+  text-align: center;
+}
+.exy-text__left {
+  text-align: left;
+}
+.exy-text__right {
+  text-align: right;
+}
+.exy-text__justify {
+  text-align: justify;
+}
+.exy-text__vertical {
+  transform: rotate(270deg);
+  transform-origin: 0 0;
+}
+
+.exy-text__uppercase {
+  text-transform: uppercase;
+}
+.exy-text__lowercase {
+  text-transform: lowercase;
+}
+.exy-text__capitalize {
+  text-transform: capitalize;
+}
+
+.exy-text__bold {
+  font-weight: 500;
+}
+.exy-text__bold-400 {
+  font-weight: 400;
+}
+.exy-text__bold-300 {
+  font-weight: 300;
+}
+.exy-text__bold-600 {
+  font-weight: 600;
+}
+.exy-text__bold-900 {
+  font-weight: 900;
+}
+.exy-text__underline {
+  text-decoration: underline;
+}
+.exy-text__italic {
+  font-style: italic;
+}
+.exy-text__oblic {
+  font-style: oblique;
+}
+.exy-text__line-through {
+  text-decoration: line-through;
+}
+.exy-text__overline {
+  text-decoration: overline;
+}
+
+
+.exy-text__xxl {
+  font-size: 50px;
+}
+.exy-text__xl {
+  font-size: 40px;
+}
+.exy-text__large {
+  font-size: 30px;
+}
+.exy-text__medium {
+  font-size: 20px;
+}
+.exy-text__small {
+  font-size: 15px;
+}
+.exy-text__tiny {
+  font-size: 7.5px;
+}

@@ -1,0 +1,322 @@
+@media screen and (min-width: 1200px) { /* Ecrans larges */
+
+}
+@media screen and (min-width: 992px) { /* Ordinateur */
+
+  .exy-grid__1-d {
+    width: 5% !important;
+    min-width: 5% !important;
+    max-width: 5% !important;
+  }
+  .exy-grid__2-d {
+    width: 10% !important;
+    min-width: 10% !important;
+    max-width: 10% !important;
+  }
+  .exy-grid__3-d {
+    width: 15% !important;
+    min-width: 15% !important;
+    max-width: 15% !important;
+  }
+  .exy-grid__4-d {
+    width: 20% !important;
+    min-width: 20% !important;
+    max-width: 20% !important;
+  }
+  .exy-grid__5-d {
+    width: 25% !important;
+    min-width: 25% !important;
+    max-width: 25% !important;
+  }
+  .exy-grid__6-d {
+    width: 30% !important;
+    min-width: 30% !important;
+    max-width: 30% !important;
+  }
+  .exy-grid__7-d {
+    width: 35% !important;
+    min-width: 35% !important;
+    max-width: 35% !important;
+  }
+  .exy-grid__8-d {
+    width: 40% !important;
+    min-width: 40% !important;
+    max-width: 40% !important;
+  }
+  .exy-grid__9-d {
+    width: 45% !important;
+    min-width: 45% !important;
+    max-width: 45% !important;
+  }
+  .exy-grid__10-d {
+    width: 50% !important;
+    min-width: 50% !important;
+    max-width: 50% !important;
+  }
+  .exy-grid__11-d {
+    width: 55% !important;
+    min-width: 55% !important;
+    max-width: 55% !important;
+  }
+  .exy-grid__12-d {
+    width: 60% !important;
+    min-width: 60% !important;
+    max-width: 60% !important;
+  }
+  .exy-grid__13-d {
+    width: 65% !important;
+    min-width: 65% !important;
+    max-width: 65% !important;
+  }
+  .exy-grid__14-d {
+    width: 70% !important;
+    min-width: 70% !important;
+    max-width: 70% !important;
+  }
+  .exy-grid__15-d {
+    width: 75% !important;
+    min-width: 75% !important;
+    max-width: 75% !important;
+  }
+  .exy-grid__16-d {
+    width: 80% !important;
+    min-width: 80% !important;
+    max-width: 80% !important;
+  }
+  .exy-grid__17-d {
+    width: 85% !important;
+    min-width: 85% !important;
+    max-width: 85% !important;
+  }
+  .exy-grid__18-d {
+    width: 90% !important;
+    min-width: 90% !important;
+    max-width: 90% !important;
+  }
+  .exy-grid__19-d {
+    width: 95% !important;
+    min-width: 95% !important;
+    max-width: 95% !important;
+  }
+  .exy-grid__20-d {
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 991px) { /* Tablette */
+  .exy-grid__1-t {
+    width: 5% !important;
+    min-width: 5% !important;
+    max-width: 5% !important;
+  }
+  .exy-grid__2-t {
+    width: 10% !important;
+    min-width: 10% !important;
+    max-width: 10% !important;
+  }
+  .exy-grid__3-t {
+    width: 15% !important;
+    min-width: 15% !important;
+    max-width: 15% !important;
+  }
+  .exy-grid__4-t {
+    width: 20% !important;
+    min-width: 20% !important;
+    max-width: 20% !important;
+  }
+  .exy-grid__5-t {
+    width: 25% !important;
+    min-width: 25% !important;
+    max-width: 25% !important;
+  }
+  .exy-grid__6-t {
+    width: 30% !important;
+    min-width: 30% !important;
+    max-width: 30% !important;
+  }
+  .exy-grid__7-t {
+    width: 35% !important;
+    min-width: 35% !important;
+    max-width: 35% !important;
+  }
+  .exy-grid__8-t {
+    width: 40% !important;
+    min-width: 40% !important;
+    max-width: 40% !important;
+  }
+  .exy-grid__9-t {
+    width: 45% !important;
+    min-width: 45% !important;
+    max-width: 45% !important;
+  }
+  .exy-grid__10-t {
+    width: 50% !important;
+    min-width: 50% !important;
+    max-width: 50% !important;
+  }
+  .exy-grid__11-t {
+    width: 55% !important;
+    min-width: 55% !important;
+    max-width: 55% !important;
+  }
+  .exy-grid__12-t {
+    width: 60% !important;
+    min-width: 60% !important;
+    max-width: 60% !important;
+  }
+  .exy-grid__13-t {
+    width: 65% !important;
+    min-width: 65% !important;
+    max-width: 65% !important;
+  }
+  .exy-grid__14-t {
+    width: 70% !important;
+    min-width: 70% !important;
+    max-width: 70% !important;
+  }
+  .exy-grid__15-t {
+    width: 75% !important;
+    min-width: 75% !important;
+    max-width: 75% !important;
+  }
+  .exy-grid__16-t {
+    width: 80% !important;
+    min-width: 80% !important;
+    max-width: 80% !important;
+  }
+  .exy-grid__17-t {
+    width: 85% !important;
+    min-width: 85% !important;
+    max-width: 85% !important;
+  }
+  .exy-grid__18-t {
+    width: 90% !important;
+    min-width: 90% !important;
+    max-width: 90% !important;
+  }
+  .exy-grid__19-t {
+    width: 95% !important;
+    min-width: 95% !important;
+    max-width: 95% !important;
+  }
+  .exy-grid__20-t {
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+  .exy-grid__1-s {
+    width: 5%;
+    min-width: 5%;
+    max-width: 5%;
+  }
+  .exy-grid__2-s {
+    width: 10%;
+    min-width: 10%;
+    max-width: 10%;
+  }
+  .exy-grid__3-s {
+    width: 15%;
+    min-width: 15%;
+    max-width: 15%;
+  }
+  .exy-grid__4-s {
+    width: 20%;
+    min-width: 20%;
+    max-width: 20%;
+  }
+  .exy-grid__5-s {
+    width: 25%;
+    min-width: 25%;
+    max-width: 25%;
+  }
+  .exy-grid__6-s {
+    width: 30%;
+    min-width: 30%;
+    max-width: 30%;
+  }
+  .exy-grid__7-s {
+    width: 35%;
+    min-width: 35%;
+    max-width: 35%;
+  }
+  .exy-grid__8-s {
+    width: 40%;
+    min-width: 40%;
+    max-width: 40%;
+  }
+  .exy-grid__9-s {
+    width: 45%;
+    min-width: 45%;
+    max-width: 45%;
+  }
+  .exy-grid__10-s {
+    width: 50%;
+    min-width: 50%;
+    max-width: 50%;
+  }
+  .exy-grid__11-s {
+    width: 55%;
+    min-width: 55%;
+    max-width: 55%;
+  }
+  .exy-grid__12-s {
+    width: 60%;
+    min-width: 60%;
+    max-width: 60%;
+  }
+  .exy-grid__13-s {
+    width: 65%;
+    min-width: 65%;
+    max-width: 65%;
+  }
+  .exy-grid__14-s {
+    width: 70%;
+    min-width: 70%;
+    max-width: 70%;
+  }
+  .exy-grid__15-s {
+    width: 75%;
+    min-width: 75%;
+    max-width: 75%;
+  }
+  .exy-grid__16-s {
+    width: 80%;
+    min-width: 80%;
+    max-width: 80%;
+  }
+  .exy-grid__17-s {
+    width: 85%;
+    min-width: 85%;
+    max-width: 85%;
+  }
+  .exy-grid__18-s {
+    width: 90%;
+    min-width: 90%;
+    max-width: 90%;
+  }
+  .exy-grid__19-s {
+    width: 95%;
+    min-width: 95%;
+    max-width: 95%;
+  }
+  .exy-grid__20-s {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+.exy-grid__spaced {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+  width: 100%;
+}
+
+.exy-grid__container {
+  display: flex;
+  width: 100% !important;
+  flex-wrap: wrap;
+}
