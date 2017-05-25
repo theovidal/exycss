@@ -8,6 +8,16 @@ ul.exy-header__mobile-nav {
   padding-bottom: 3px;
   padding-top: 3px;
   justify-content: space-around;
+
+  border-bottom: 5px;
+  border-color: grey;
+  border-width: 1px;
+}
+ul.exy-header__mobile-nav li {
+  margin: 10px;
+}
+ul.exy-header__mobile-nav.exy-header__oneline-mobile li {
+  margin: 2px;
 }
 ul.exy-header__mobile-nav a.exy-header__link {
   text-decoration: none;
@@ -39,6 +49,11 @@ header.exy-header__container div.exy-header__titler span.exy-header__title {
   font-size: 30px;
   margin-left: 5px;
 }
+header.exy-header__container div.exy-header__titler span.exy-header__title a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 400;
+}
 
 /* logo */
 header.exy-header__container div.exy-header__titler img.exy-header__logo {
@@ -58,8 +73,8 @@ header.exy-header__container div.exy-header__titler img.exy-header__logo {
     text-decoration: none;
     color: #fff;
     font-size: 17px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
 
   }
 

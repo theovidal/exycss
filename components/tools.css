@@ -6,11 +6,62 @@ a.exy-tool__no-style-link {
 
 /* --- MARGIN --- */
 
+.exy-tool__spaced-0 {
+  margin: 0px;
+}
+.exy-tool__spaced-1 {
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 0.5px;
+  margin-bottom: 0.5px;
+}
+.exy-tool__spaced-2 {
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.exy-tool__spaced-3 {
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 1.5px;
+  margin-bottom: 1.5px;
+}
+.exy-tool__spaced-4 {
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
 .exy-tool__spaced-5 {
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 2.5px;
   margin-bottom: 2.5px;
+}
+.exy-tool__spaced-6 {
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.exy-tool__spaced-7 {
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-top: 3.5px;
+  margin-bottom: 3.5px;
+}
+.exy-tool__spaced-8 {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.exy-tool__spaced-9 {
+  margin-left: 9px;
+  margin-right: 9px;
+  margin-top: 4.5px;
+  margin-bottom: 4.5px;
 }
 .exy-tool__spaced-10 {
   margin-left: 10px;
@@ -69,11 +120,62 @@ a.exy-tool__no-style-link {
 
 /* --- PADDING --- */
 
+.exy-tool__enlarge-0 {
+  padding: 0px;
+}
+.exy-tool__enlarge-1 {
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
+}
+.exy-tool__enlarge-2 {
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.exy-tool__enlarge-3 {
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
+}
+.exy-tool__enlarge-4 {
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
 .exy-tool__enlarge-5 {
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 2.5px;
   padding-bottom: 2.5px;
+}
+.exy-tool__enlarge-6 {
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.exy-tool__enlarge-7 {
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 3.5px;
+  padding-bottom: 3.5px;
+}
+.exy-tool__enlarge-8 {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.exy-tool__enlarge-9 {
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 4.5px;
+  padding-bottom: 4.5px;
 }
 .exy-tool__enlarge-10 {
   padding-left: 10px;
