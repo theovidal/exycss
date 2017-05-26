@@ -1,0 +1,51 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 15px;
+}
+h6 {
+  font-size: 7.5px;
+}
+p {
+  font-size: 14px;
+}
+a {
+  color: #039be5;
+}
+
+strong, b {
+  font-weight: 500;
+}
+em, i {
+  font-style: italic;
+}
+u {
+  text-decoration: underline;
+}
+blockquote {
+  border-left: 5px #ccc solid;
+  padding-left: 8px;
+  font-style: italic;
+}
+code {
+  font-family: 'Consolas', sans-serif;
+
+}
+
+body {
+  margin: 0px !important;
+}
