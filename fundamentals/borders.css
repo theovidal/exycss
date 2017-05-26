@@ -55,3 +55,61 @@
 .exy-border__50 {
   border: 50px black solid;
 }
+
+.exy-border__radius-0 {
+  border-radius: 0px;
+}
+.exy-border__radius-1 {
+  border-radius: 1px;
+}
+.exy-border__radius-2 {
+  border-radius: 2px;
+}
+.exy-border__radius-3 {
+  border-radius: 3px;
+}
+.exy-border__radius-4 {
+  border-radius: 4px;
+}
+.exy-border__radius-5 {
+  border-radius: 5px;
+}
+.exy-border__radius-6 {
+  border-radius: 6px;
+}
+.exy-border__radius-7 {
+  border-radius: 7px;
+}
+.exy-border__radius-8 {
+  border-radius: 8px;
+}
+.exy-border__radius-9 {
+  border-radius: 9px;
+}
+.exy-border__radius-10 {
+  border-radius: 10px;
+}
+.exy-border__radius-15 {
+  border-radius: 15px;
+}
+.exy-border__radius-20 {
+  border-radius: 20px;
+}
+.exy-border__radius-25 {
+  border-radius: 25px;
+}
+.exy-border__radius-30 {
+  border-radius: 30px;
+}
+.exy-border__radius-33 {
+  border-radius: 33px;
+}
+.exy-border__radius-40 {
+  border-radius: 40px;
+}
+.exy-border__radius-45 {
+  border-radius: 45px;
+}
+.exy-border__radius-50 {
+  border-radius: 50px;
+}

@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>ExyCSS</title>
+  <title>ExyCSS - Grid</title>
 
   <!-- our stylesheets -->
-  <link rel="stylesheet" type="text/css" href="media/images.css">
-  <link rel="stylesheet" type="text/css" href="components/text.css">
-  <link rel="stylesheet" type="text/css" href="components/tools.css">
-  <link rel="stylesheet" type="text/css" href="components/header.css">
-  <link rel="stylesheet" type="text/css" href="components/footer.css">
-  <link rel="stylesheet" type="text/css" href="components/buttons.css">
-  <link rel="stylesheet" type="text/css" href="fundamentals/basehtml.css">
-  <link rel="stylesheet" type="text/css" href="fundamentals/color.css">
-  <link rel="stylesheet" type="text/css" href="fundamentals/grid.css">
-  <link rel="stylesheet" type="text/css" href="fundamentals/borders.css">
+  <link rel="stylesheet" type="text/css" href="../media/images.css">
+  <link rel="stylesheet" type="text/css" href="../components/text.css">
+  <link rel="stylesheet" type="text/css" href="../components/tools.css">
+  <link rel="stylesheet" type="text/css" href="../components/header.css">
+  <link rel="stylesheet" type="text/css" href="../components/footer.css">
+  <link rel="stylesheet" type="text/css" href="../components/buttons.css">
+  <link rel="stylesheet" type="text/css" href="../fundamentals/basehtml.css">
+  <link rel="stylesheet" type="text/css" href="../fundamentals/color.css">
+  <link rel="stylesheet" type="text/css" href="../fundamentals/grid.css">
+  <link rel="stylesheet" type="text/css" href="../fundamentals/borders.css">
 
   <!-- our script file -->
-  <script src="javascript/nav.js" type="text/javascript"></script>
+  <script src="javascript/nav.js" type="../text/javascript"></script>
 
   <!-- roboto and material icons -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
@@ -28,25 +28,6 @@
   <!-- utf-8 meta -->
   <meta charset="utf-8" />
 
-  <style type="text/css">
-
-  .exycss-banner {
-    background: url('img/exycss_banner.png') fixed no-repeat;
-    height: 400px;
-    background-size: cover;
-    background-position: center;
-
-  }
-  @media screen and (max-width: 600px) {
-    exycss-banner {
-      background: url('img/exycss_banner.png') fixed no-repeat;
-      height: 400px;
-      background-size: cover;
-
-    }
-  }
-
-  </style>
 </head>
 
 <body>
@@ -75,39 +56,72 @@
   <div class="exy-grid__container exy-color__grey-500-back exy-text__center">
     <div class="exy-grid__spaced">
 
-      <h1 class="exy-text__center exy-grid__20-s">ExyCSS - Welcome</h1>
+      <h1 class="exy-text__center exy-grid__20-s">ExyCSS - Grid</h1>
 
-      <p>Welcome to the main page of the ExyCSS framework ! Here you can discover the functionnalities or read the docs to create your own website with ExyCSS !</p>
-
-    </div>
-  </div>
-
-  <div class="exy-grid__container exy-color__grey-500-back exy-text__center exycss-banner">
-
-  </div>
-
-  <div class="exy-grid__container exy-color__grey-500-back exy-text__center">
-    <div class="exy-grid__spaced">
-
-      <h1 class="exy-text__center exy-grid__20-s">Why use it ?</h1>
-
-      <p>ExyCSS is a <strong>newly created framework</strong>, and it is very active. Your bugs, ideas or contributions are very important for us.</p>
-      <p>ExyCSS is <strong>simple</strong> and it allows you to <strong>quickly make a website</strong>, with no problems or more CSS...</p>
-      <p>ExyCSS is <strong>flexible</strong> : you are not trapped in one solution, <strong>the real solution is you</strong>. Just view the not-minified version of the framework files and choose what you want to modify.</p>
+      <p><a href="https://github.com/Exybore/exycss/wiki/Grid" class="exy-tool__no-style-link">Go to the wiki page by clicking here</a></p>
 
     </div>
   </div>
 
-  <div class="exy-grid__container exy-color__grey-300-back exy-text__center">
-    <div class="exy-grid__spaced">
+  <div class="exy-grid__container exy-color__grey-300-back">
 
-      <h1 class="exy-text__center exy-grid__20-s">Where can I start ?</h1>
+    <h1 class="exy-grid__20-s exy-text__center">Normal example</h1>
 
-      <p>We have a <a href="https://github.com/Exybore/exycss/wiki">wiki page</a> for our framework who explain you how to setup your website and your components. Be careful on the fundamentals : they are important for the framework comprehension.</p>
+    <div class="exy-grid__1-s exy-color__red-500-back">
+    1 cell
+  </div>
 
-      <p>If you have any problem, contact us on <a href="https://discord.gg/DhE3vaC">Discord</a>, <a href="https://gitter.im/exybore/exycss">Gitter</a> or <a href="https://twitter.com/exybore">Twitter</a>.</p>
+  <div class="exy-grid__1-s exy-color__d-purple-500-back">
+    1 cell
+  </div>
 
-    </div>
+  <div class="exy-grid__2-s exy-color__pink-500-back">
+    2 cells
+  </div>
+
+  <div class="exy-grid__5-s exy-color__amber-500-back">
+    5 cells
+  </div>
+
+  <div class="exy-grid__1-s exy-color__b-grey-500-back">
+    1 cell
+  </div>
+
+  <div class="exy-grid__4-s exy-color__orange-500-back">
+    4 cells
+  </div>
+
+  <div class="exy-grid__6-s exy-color__purple-500-back">
+    6 cells
+  </div>
+
+  <div class="exy-grid__20-s"><br /><br /></div>
+
+  </div>
+
+
+
+  <div class="exy-grid__container exy-color__grey-500-back">
+
+    <h1 class="exy-grid__20-s exy-text__center">Responsive example</h1>
+
+      <div class="exy-grid__1-s exy-grid__5-t exy-grid__10-d exy-color__red-500-back">
+        1-s 5-t 10-d
+      </div>
+
+      <div class="exy-grid__1-s exy-grid__5-t exy-grid__10-d exy-color__green-500-back">
+        1-s 5-t 10-d
+      </div>
+
+      <div class="exy-grid__2-s exy-grid__2-t exy-grid__5-d exy-color__blue-500-back">
+        2-s 2-t 5-d
+      </div>
+
+      <div class="exy-grid__6-s exy-color__yellow-500-back">
+        6 on all
+      </div>
+
+      <div class="exy-grid__20-s"><br /><br /></div>
   </div>
 
   <footer class="exy-footer__container exy-color__grey-800-back">
