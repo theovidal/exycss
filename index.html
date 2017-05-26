@@ -6,6 +6,7 @@
   <!-- our stylesheets -->
   <link rel="stylesheet" type="text/css" href="media/images.css">
   <link rel="stylesheet" type="text/css" href="components/text.css">
+  <link rel="stylesheet" type="text/css" href="components/buttons.css">
   <link rel="stylesheet" type="text/css" href="components/tools.css">
   <link rel="stylesheet" type="text/css" href="components/header.css">
   <link rel="stylesheet" type="text/css" href="components/footer.css">
@@ -66,7 +67,10 @@
   <p class="exy-text__small">Small text</p>
   <p class="exy-text__tiny">Tiny text</p>
 
-  <hr />
+  <hr class="exy-hr__gradient" />
+  <hr class="exy-hr__double" />
+  <hr class="exy-hr__dashed" />
+  <hr class="exy-hr__dotted" />
 
   <p class="exy-text__left">Left aligned</p>
   <p class="exy-text__center">Center aligned</p>
@@ -114,6 +118,35 @@
 
   <hr />
 
+  <div class="exy-btn__group">
+    <button class="exy-btn__classic">Classic button</button>
+  </div>
+
+  <br />
+
+  <div class="exy-btn__group">
+    <button class="exy-btn__classic exy-btn__r-left exy-btn__small">Left rounded</button>
+    <button class="exy-btn__classic exy-btn__r-none exy-btn__small">No rounded</button>
+    <button class="exy-btn__classic exy-btn__r-none exy-btn__small">No rounded</button>
+    <button class="exy-btn__classic exy-btn__r-none exy-btn__small">No rounded</button>
+    <button class="exy-btn__classic exy-btn__r-none exy-btn__small">No rounded</button>
+    <button class="exy-btn__classic exy-btn__r-right exy-btn__small">Right rounded</button>
+
+    <button class="exy-btn__classic exy-btn__r-all exy-btn__small">All rounded</button>
+  </div>
+
+  <br />
+
+  <div class="exy-btn__group">
+    <button class="exy-btn__classic exy-btn__xl">XL button</button>
+    <button class="exy-btn__classic exy-btn__large">Large btn</button>
+    <button class="exy-btn__classic exy-btn__medium">Medium btn</button>
+    <button class="exy-btn__classic exy-btn__small">Small button</button>
+    <button class="exy-btn__classic exy-btn__tiny">Tiny button</button>
+  </div>
+
+  <hr />
+
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rutrum pharetra metus, et vestibulum nulla pellentesque eu. Nulla molestie neque vel leo rutrum, nec ultricies nunc luctus. Mauris velit nunc, iaculis sed lorem vitae, ultrices convallis diam. Aliquam dignissim diam eu leo pretium posuere. Nullam eu nulla eu ante ultricies accumsan. Sed sollicitudin lacus ac feugiat luctus. Phasellus in sodales quam, a fermentum augue.</p>
 
   <div class="exy-grid__container">
@@ -130,246 +163,7 @@
 
   <div class="exy-grid__spaced">
 
-    <p class="exy-color__black-back exy-color__white exy-text__medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rutrum pharetra metus, et vestibulum nulla pellentesque eu. Nulla molestie neque vel leo rutrum, nec ultricies nunc luctus. Mauris velit nunc, iaculis sed lorem vitae, ultrices convallis diam. Aliquam dignissim diam eu leo pretium posuere. Nullam eu nulla eu ante ultricies accumsan. Sed sollicitudin lacus ac feugiat luctus. Phasellus in sodales quam, a fermentum augue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rutrum pharetra metus, et vestibulum nulla pellentesque eu. Nulla molestie neque vel leo rutrum, nec ultricies nunc luctus. Mauris velit nunc, iaculis sed lorem vitae, ultrices convallis diam. Aliquam dignissim diam eu leo pretium posuere. Nullam eu nulla eu ante ultricies accumsan. Sed sollicitudin lacus ac feugiat luctus. Phasellus in sodales quam, a fermentum augue.</p>
-
-  </div>
-
-  <div class="exy-grid__container exy-color__grey-400-back exy-text__center">
-
-    <h1 class="exy-text__center exy-grid__20-s">Colors</h1>
-
-    <div class="exy-grid__9-s exy-grid__5-t exy-grid__3-d exy-border__1 exy-tool__spaced-5">
-      <div class="exy-color__red-100-back exy-tool__enlarge-20">red-100</div>
-      <div class="exy-color__red-200-back exy-tool__enlarge-20">red-200</div>
-      <div class="exy-color__red-300-back exy-tool__enlarge-20">red-300</div>
-      <div class="exy-color__red-400-back exy-tool__enlarge-20">red-400</div>
-      <div class="exy-color__red-500-back exy-tool__enlarge-20">red-500</div>
-      <div class="exy-color__red-600-back exy-tool__enlarge-20">red-600</div>
-      <div class="exy-color__red-700-back exy-tool__enlarge-20">red-700</div>
-      <div class="exy-color__red-800-back exy-tool__enlarge-20">red-800</div>
-      <div class="exy-color__red-900-back exy-tool__enlarge-20">red-900</div>
-    </div>
-
-    <div class="exy-grid__9-s exy-grid__5-t exy-grid__3-d exy-border__1 exy-tool__spaced-5">
-      <div class="exy-color__pink-100-back exy-tool__enlarge-20">pink-100</div>
-      <div class="exy-color__pink-200-back exy-tool__enlarge-20">pink-200</div>
-      <div class="exy-color__pink-300-back exy-tool__enlarge-20">pink-300</div>
-      <div class="exy-color__pink-400-back exy-tool__enlarge-20">pink-400</div>
-      <div class="exy-color__pink-500-back exy-tool__enlarge-20">pink-500</div>
-      <div class="exy-color__pink-600-back exy-tool__enlarge-20">pink-600</div>
-      <div class="exy-color__pink-700-back exy-tool__enlarge-20">pink-700</div>
-      <div class="exy-color__pink-800-back exy-tool__enlarge-20">pink-800</div>
-      <div class="exy-color__pink-900-back exy-tool__enlarge-20">pink-900</div>
-    </div>
-
-    <div class="exy-grid__9-s exy-grid__5-t exy-grid__3-d exy-border__1 exy-tool__spaced-5">
-      <div class="exy-color__purple-100-back exy-tool__enlarge-20">purple-100</div>
-      <div class="exy-color__purple-200-back exy-tool__enlarge-20">purple-200</div>
-      <div class="exy-color__purple-300-back exy-tool__enlarge-20">purple-300</div>
-      <div class="exy-color__purple-400-back exy-tool__enlarge-20">purple-400</div>
-      <div class="exy-color__purple-500-back exy-tool__enlarge-20">purple-500</div>
-      <div class="exy-color__purple-600-back exy-tool__enlarge-20">purple-600</div>
-      <div class="exy-color__purple-700-back exy-tool__enlarge-20">purple-700</div>
-      <div class="exy-color__purple-800-back exy-tool__enlarge-20">purple-800</div>
-      <div class="exy-color__purple-900-back exy-tool__enlarge-20">purple-900</div>
-    </div>
-
-    <div class="exy-grid__9-s exy-grid__5-t exy-grid__3-d exy-border__1 exy-tool__spaced-5">
-      <div class="exy-color__d-purple-100-back exy-tool__enlarge-20">d-purple-100</div>
-      <div class="exy-color__d-purple-200-back exy-tool__enlarge-20">d-purple-200</div>
-      <div class="exy-color__d-purple-300-back exy-tool__enlarge-20">d-purple-300</div>
-      <div class="exy-color__d-purple-400-back exy-tool__enlarge-20">d-purple-400</div>
-      <div class="exy-color__d-purple-500-back exy-tool__enlarge-20">d-purple-500</div>
-      <div class="exy-color__d-purple-600-back exy-tool__enlarge-20">d-purple-600</div>
-      <div class="exy-color__d-purple-700-back exy-tool__enlarge-20">d-purple-700</div>
-      <div class="exy-color__d-purple-800-back exy-tool__enlarge-20">d-purple-800</div>
-      <div class="exy-color__d-purple-900-back exy-tool__enlarge-20">d-purple-900</div>
-    </div>
-
-    <div class="exy-grid__9-s exy-grid__5-t exy-grid__3-d exy-border__1 exy-tool__spaced-5">
-      <div class="exy-color__indigo-100-back exy-tool__enlarge-20">indigo-100</div>
-      <div class="exy-color__indigo-200-back exy-tool__enlarge-20">indigo-200</div>
-      <div class="exy-color__indigo-300-back exy-tool__enlarge-20">indigo-300</div>
-      <div class="exy-color__indigo-400-back exy-tool__enlarge-20">indigo-400</div>
-      <div class="exy-color__indigo-500-back exy-tool__enlarge-20">indigo-500</div>
-      <div class="exy-color__indigo-600-back exy-tool__enlarge-20">indigo-600</div>
-      <div class="exy-color__indigo-700-back exy-tool__enlarge-20">indigo-700</div>
-      <div class="exy-color__indigo-800-back exy-tool__enlarge-20">indigo-800</div>
-      <div class="exy-color__indigo-900-back exy-tool__enlarge-20">indigo-900</div>
-    </div>
-
-    <div class="exy-grid__9-s exy-grid__5-t exy-grid__3-d exy-border__1 exy-tool__spaced-5">
-      <div class="exy-color__blue-100-back exy-tool__enlarge-20">blue-100</div>
-      <div class="exy-color__blue-200-back exy-tool__enlarge-20">blue-200</div>
-      <div class="exy-color__blue-300-back exy-tool__enlarge-20">blue-300</div>
-      <div class="exy-color__blue-400-back exy-tool__enlarge-20">blue-400</div>
-      <div class="exy-color__blue-500-back exy-tool__enlarge-20">blue-500</div>
-      <div class="exy-color__blue-600-back exy-tool__enlarge-20">blue-600</div>
-      <div class="exy-color__blue-700-back exy-tool__enlarge-20">blue-700</div>
-      <div class="exy-color__blue-800-back exy-tool__enlarge-20">blue-800</div>
-      <div class="exy-color__blue-900-back exy-tool__enlarge-20">blue-900</div>
-    </div>
-
-    <div class="exy-grid__9-s exy-grid__5-t exy-grid__3-d exy-border__1 exy-tool__spaced-5">
-      <div class="exy-color__l-blue-100-back exy-tool__enlarge-20">l-blue-100</div>
-      <div class="exy-color__l-blue-200-back exy-tool__enlarge-20">l-blue-200</div>
-      <div class="exy-color__l-blue-300-back exy-tool__enlarge-20">l-blue-300</div>
-      <div class="exy-color__l-blue-400-back exy-tool__enlarge-20">l-blue-400</div>
-      <div class="exy-color__l-blue-500-back exy-tool__enlarge-20">l-blue-500</div>
-      <div class="exy-color__l-blue-600-back exy-tool__enlarge-20">l-blue-600</div>
-      <div class="exy-color__l-blue-700-back exy-tool__enlarge-20">l-blue-700</div>
-      <div class="exy-color__l-blue-800-back exy-tool__enlarge-20">l-blue-800</div>
-      <div class="exy-color__l-blue-900-back exy-tool__enlarge-20">l-blue-900</div>
-    </div>
-
-    <div class="exy-grid__9-s exy-grid__5-t exy-grid__3-d exy-border__1 exy-tool__spaced-5">
-      <div class="exy-color__cyan-100-back exy-tool__enlarge-20">cyan-100</div>
-      <div class="exy-color__cyan-200-back exy-tool__enlarge-20">cyan-200</div>
-      <div class="exy-color__cyan-300-back exy-tool__enlarge-20">cyan-300</div>
-      <div class="exy-color__cyan-400-back exy-tool__enlarge-20">cyan-400</div>
-      <div class="exy-color__cyan-500-back exy-tool__enlarge-20">cyan-500</div>
-      <div class="exy-color__cyan-600-back exy-tool__enlarge-20">cyan-600</div>
-      <div class="exy-color__cyan-700-back exy-tool__enlarge-20">cyan-700</div>
-      <div class="exy-color__cyan-800-back exy-tool__enlarge-20">cyan-800</div>
-      <div class="exy-color__cyan-900-back exy-tool__enlarge-20">cyan-900</div>
-    </div>
-
-    <div class="exy-grid__9-s exy-grid__5-t exy-grid__3-d exy-border__1 exy-tool__spaced-5">
-      <div class="exy-color__teal-100-back exy-tool__enlarge-20">teal-100</div>
-      <div class="exy-color__teal-200-back exy-tool__enlarge-20">teal-200</div>
-      <div class="exy-color__teal-300-back exy-tool__enlarge-20">teal-300</div>
-      <div class="exy-color__teal-400-back exy-tool__enlarge-20">teal-400</div>
-      <div class="exy-color__teal-500-back exy-tool__enlarge-20">teal-500</div>
-      <div class="exy-color__teal-600-back exy-tool__enlarge-20">teal-600</div>
-      <div class="exy-color__teal-700-back exy-tool__enlarge-20">teal-700</div>
-      <div class="exy-color__teal-800-back exy-tool__enlarge-20">teal-800</div>
-      <div class="exy-color__teal-900-back exy-tool__enlarge-20">teal-900</div>
-    </div>
-
-    <div class="exy-grid__9-s exy-grid__5-t exy-grid__3-d exy-border__1 exy-tool__spaced-5">
-      <div class="exy-color__green-100-back exy-tool__enlarge-20">green-100</div>
-      <div class="exy-color__green-200-back exy-tool__enlarge-20">green-200</div>
-      <div class="exy-color__green-300-back exy-tool__enlarge-20">green-300</div>
-      <div class="exy-color__green-400-back exy-tool__enlarge-20">green-400</div>
-      <div class="exy-color__green-500-back exy-tool__enlarge-20">green-500</div>
-      <div class="exy-color__green-600-back exy-tool__enlarge-20">green-600</div>
-      <div class="exy-color__green-700-back exy-tool__enlarge-20">green-700</div>
-      <div class="exy-color__green-800-back exy-tool__enlarge-20">green-800</div>
-      <div class="exy-color__green-900-back exy-tool__enlarge-20">green-900</div>
-    </div>
-
-    <div class="exy-grid__9-s exy-grid__5-t exy-grid__3-d exy-border__1 exy-tool__spaced-5">
-      <div class="exy-color__l-green-100-back exy-tool__enlarge-20">l-green-100</div>
-      <div class="exy-color__l-green-200-back exy-tool__enlarge-20">l-green-200</div>
-      <div class="exy-color__l-green-300-back exy-tool__enlarge-20">l-green-300</div>
-      <div class="exy-color__l-green-400-back exy-tool__enlarge-20">l-green-400</div>
-      <div class="exy-color__l-green-500-back exy-tool__enlarge-20">l-green-500</div>
-      <div class="exy-color__l-green-600-back exy-tool__enlarge-20">l-green-600</div>
-      <div class="exy-color__l-green-700-back exy-tool__enlarge-20">l-green-700</div>
-      <div class="exy-color__l-green-800-back exy-tool__enlarge-20">l-green-800</div>
-      <div class="exy-color__l-green-900-back exy-tool__enlarge-20">l-green-900</div>
-    </div>
-
-    <div class="exy-grid__9-s exy-grid__5-t exy-grid__3-d exy-border__1 exy-tool__spaced-5">
-      <div class="exy-color__lime-100-back exy-tool__enlarge-20">lime-100</div>
-      <div class="exy-color__lime-200-back exy-tool__enlarge-20">lime-200</div>
-      <div class="exy-color__lime-300-back exy-tool__enlarge-20">lime-300</div>
-      <div class="exy-color__lime-400-back exy-tool__enlarge-20">lime-400</div>
-      <div class="exy-color__lime-500-back exy-tool__enlarge-20">lime-500</div>
-      <div class="exy-color__lime-600-back exy-tool__enlarge-20">lime-600</div>
-      <div class="exy-color__lime-700-back exy-tool__enlarge-20">lime-700</div>
-      <div class="exy-color__lime-800-back exy-tool__enlarge-20">lime-800</div>
-      <div class="exy-color__lime-900-back exy-tool__enlarge-20">lime-900</div>
-    </div>
-
-    <div class="exy-grid__9-s exy-grid__5-t exy-grid__3-d exy-border__1 exy-tool__spaced-5">
-      <div class="exy-color__yellow-100-back exy-tool__enlarge-20">yellow-100</div>
-      <div class="exy-color__yellow-200-back exy-tool__enlarge-20">yellow-200</div>
-      <div class="exy-color__yellow-300-back exy-tool__enlarge-20">yellow-300</div>
-      <div class="exy-color__yellow-400-back exy-tool__enlarge-20">yellow-400</div>
-      <div class="exy-color__yellow-500-back exy-tool__enlarge-20">yellow-500</div>
-      <div class="exy-color__yellow-600-back exy-tool__enlarge-20">yellow-600</div>
-      <div class="exy-color__yellow-700-back exy-tool__enlarge-20">yellow-700</div>
-      <div class="exy-color__yellow-800-back exy-tool__enlarge-20">yellow-800</div>
-      <div class="exy-color__yellow-900-back exy-tool__enlarge-20">yellow-900</div>
-    </div>
-
-    <div class="exy-grid__9-s exy-grid__5-t exy-grid__3-d exy-border__1 exy-tool__spaced-5">
-      <div class="exy-color__amber-100-back exy-tool__enlarge-20">amber-100</div>
-      <div class="exy-color__amber-200-back exy-tool__enlarge-20">amber-200</div>
-      <div class="exy-color__amber-300-back exy-tool__enlarge-20">amber-300</div>
-      <div class="exy-color__amber-400-back exy-tool__enlarge-20">amber-400</div>
-      <div class="exy-color__amber-500-back exy-tool__enlarge-20">amber-500</div>
-      <div class="exy-color__amber-600-back exy-tool__enlarge-20">amber-600</div>
-      <div class="exy-color__amber-700-back exy-tool__enlarge-20">amber-700</div>
-      <div class="exy-color__amber-800-back exy-tool__enlarge-20">amber-800</div>
-      <div class="exy-color__amber-900-back exy-tool__enlarge-20">amber-900</div>
-    </div>
-
-    <div class="exy-grid__9-s exy-grid__5-t exy-grid__3-d exy-border__1 exy-tool__spaced-5">
-      <div class="exy-color__orange-100-back exy-tool__enlarge-20">orange-100</div>
-      <div class="exy-color__orange-200-back exy-tool__enlarge-20">orange-200</div>
-      <div class="exy-color__orange-300-back exy-tool__enlarge-20">orange-300</div>
-      <div class="exy-color__orange-400-back exy-tool__enlarge-20">orange-400</div>
-      <div class="exy-color__orange-500-back exy-tool__enlarge-20">orange-500</div>
-      <div class="exy-color__orange-600-back exy-tool__enlarge-20">orange-600</div>
-      <div class="exy-color__orange-700-back exy-tool__enlarge-20">orange-700</div>
-      <div class="exy-color__orange-800-back exy-tool__enlarge-20">orange-800</div>
-      <div class="exy-color__orange-900-back exy-tool__enlarge-20">orange-900</div>
-    </div>
-
-    <div class="exy-grid__9-s exy-grid__5-t exy-grid__3-d exy-border__1 exy-tool__spaced-5">
-      <div class="exy-color__d-orange-100-back exy-tool__enlarge-20">d-orange-100</div>
-      <div class="exy-color__d-orange-200-back exy-tool__enlarge-20">d-orange-200</div>
-      <div class="exy-color__d-orange-300-back exy-tool__enlarge-20">d-orange-300</div>
-      <div class="exy-color__d-orange-400-back exy-tool__enlarge-20">d-orange-400</div>
-      <div class="exy-color__d-orange-500-back exy-tool__enlarge-20">d-orange-500</div>
-      <div class="exy-color__d-orange-600-back exy-tool__enlarge-20">d-orange-600</div>
-      <div class="exy-color__d-orange-700-back exy-tool__enlarge-20">d-orange-700</div>
-      <div class="exy-color__d-orange-800-back exy-tool__enlarge-20">d-orange-800</div>
-      <div class="exy-color__d-orange-900-back exy-tool__enlarge-20">d-orange-900</div>
-    </div>
-
-    <div class="exy-grid__9-s exy-grid__5-t exy-grid__3-d exy-border__1 exy-tool__spaced-5">
-      <div class="exy-color__brown-100-back exy-tool__enlarge-20">brown-100</div>
-      <div class="exy-color__brown-200-back exy-tool__enlarge-20">brown-200</div>
-      <div class="exy-color__brown-300-back exy-tool__enlarge-20">brown-300</div>
-      <div class="exy-color__brown-400-back exy-tool__enlarge-20">brown-400</div>
-      <div class="exy-color__brown-500-back exy-tool__enlarge-20">brown-500</div>
-      <div class="exy-color__brown-600-back exy-tool__enlarge-20">brown-600</div>
-      <div class="exy-color__brown-700-back exy-tool__enlarge-20">brown-700</div>
-      <div class="exy-color__brown-800-back exy-tool__enlarge-20">brown-800</div>
-      <div class="exy-color__brown-900-back exy-tool__enlarge-20">brown-900</div>
-    </div>
-
-    <div class="exy-grid__9-s exy-grid__5-t exy-grid__3-d exy-border__1 exy-tool__spaced-5">
-      <div class="exy-color__grey-100-back exy-tool__enlarge-20">grey-100</div>
-      <div class="exy-color__grey-200-back exy-tool__enlarge-20">grey-200</div>
-      <div class="exy-color__grey-300-back exy-tool__enlarge-20">grey-300</div>
-      <div class="exy-color__grey-400-back exy-tool__enlarge-20">grey-400</div>
-      <div class="exy-color__grey-500-back exy-tool__enlarge-20">grey-500</div>
-      <div class="exy-color__grey-600-back exy-tool__enlarge-20">grey-600</div>
-      <div class="exy-color__grey-700-back exy-tool__enlarge-20">grey-700</div>
-      <div class="exy-color__grey-800-back exy-tool__enlarge-20">grey-800</div>
-      <div class="exy-color__grey-900-back exy-tool__enlarge-20">grey-900</div>
-    </div>
-
-    <div class="exy-grid__9-s exy-grid__5-t exy-grid__3-d exy-border__1 exy-tool__spaced-5">
-      <div class="exy-color__b-grey-100-back exy-tool__enlarge-20">b-grey-100</div>
-      <div class="exy-color__b-grey-200-back exy-tool__enlarge-20">b-grey-200</div>
-      <div class="exy-color__b-grey-300-back exy-tool__enlarge-20">b-grey-300</div>
-      <div class="exy-color__b-grey-400-back exy-tool__enlarge-20">b-grey-400</div>
-      <div class="exy-color__b-grey-500-back exy-tool__enlarge-20">b-grey-500</div>
-      <div class="exy-color__b-grey-600-back exy-tool__enlarge-20">b-grey-600</div>
-      <div class="exy-color__b-grey-700-back exy-tool__enlarge-20">b-grey-700</div>
-      <div class="exy-color__b-grey-800-back exy-tool__enlarge-20">b-grey-800</div>
-      <div class="exy-color__b-grey-900-back exy-tool__enlarge-20">b-grey-900</div>
-    </div>
-
-    <div class="exy-grid__9-s exy-grid__5-t exy-grid__3-d exy-border__1 exy-tool__spaced-5">
-      <div class="exy-color__black-back exy-color__white exy-tool__enlarge-20">black</div>
-      <div class="exy-color__white-back exy-tool__enlarge-20">white</div>
-    </div>
+    <p class="exy-color__grey-600-back exy-color__black exy-text__medium exy-border__2 exy-border__radius-30 exy-tool__enlarge-10 exy-text__capitalize">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rutrum pharetra metus, et vestibulum nulla pellentesque eu. Nulla molestie neque vel leo rutrum, nec ultricies nunc luctus. Mauris velit nunc, iaculis sed lorem vitae, ultrices convallis diam. Aliquam dignissim diam eu leo pretium posuere. Nullam eu nulla eu ante ultricies accumsan. Sed sollicitudin lacus ac feugiat luctus. Phasellus in sodales quam, a fermentum augue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rutrum pharetra metus, et vestibulum nulla pellentesque eu. Nulla molestie neque vel leo rutrum, nec ultricies nunc luctus. Mauris velit nunc, iaculis sed lorem vitae, ultrices convallis diam. Aliquam dignissim diam eu leo pretium posuere. Nullam eu nulla eu ante ultricies accumsan. Sed sollicitudin lacus ac feugiat luctus. Phasellus in sodales quam, a fermentum augue.</p>
 
   </div>
 
