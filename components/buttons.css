@@ -60,3 +60,28 @@ button.exy-btn__classic.exy-btn__xl {
   padding: 32.5px;
   font-size: 20px;
 }
+
+button.exy-btn__flat {
+    padding: 12px 40px 12px 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.75);
+    border: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 3.75px;
+    margin-left: 3.75px;
+    cursor: pointer;
+}
+
+button.exy-btn__flat a, button.exy-btn__classic {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
