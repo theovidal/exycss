@@ -1,5 +1,5 @@
 # ExyCSS - Welcome
-![ExyCSS banner](https://exybore.becauseofprog.fr/img/exycss_banner.png)
+![ExyCSS banner](https://cdn.becauseofprog.fr/exybore/img/exycss_banner.png)
 You're on the ExyCSS framework repository. Here is the starter guide.
 
 ----------
@@ -22,5 +22,4 @@ Now go and create your first website with ExyCSS framework !
 **Official website :** [https://exybore.becauseofprog.fr/exycss](https://exybore.github.io/exycss)  
 **Wiki :** [https://github.com/Exybore/exycss/wiki/Setup](https://github.com/Exybore/exycss/wiki/)  
 **GitHub Repository :** [https://github.com/Exybore/exycss](https://github.com/Exybore/exycss)  
-**Gitter chat :** [https://gitter.im/exybore/exycss](https://gitter.im/exybore/exycss)  
 **Discord Chat (support and help) :** [https://discord.gg/DhE3vaC](https://discord.gg/DhE3vaC)  
