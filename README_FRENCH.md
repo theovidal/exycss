@@ -1,5 +1,5 @@
 # ExyCSS - Bienvenue
-![Bannière ExyCSS](https://exybore.becauseofprog.fr/img/exycss_banner.png)
+![Bannière ExyCSS](https://cdn.becauseofprog.fr/exybore/img/exycss_banner.png)
 Vous êtes sur le dépôt GitHub du framework ExyCSS. Voici le guide de démarrage.
 
 ----------
@@ -19,8 +19,7 @@ Maintenant, allez créer votre premier site web avec le framework ExyCSS !
 
 ----------
 # Liens  
-**Site officiel :** [https://exybore.becauseofprog.fr/exycss](https://exybore.github.io/exycss)  
+**Site officiel :** [https://exybore.becauseofprog.fr/exycss](https://exybore.becauseofprog.fr/exycss)  
 **Wiki :** [https://github.com/Exybore/exycss/wiki/Setup](https://github.com/Exybore/exycss/wiki/)  
 **Dépôt GitHub :** [https://github.com/Exybore/exycss](https://github.com/Exybore/exycss)  
-**Chat Gitter :** [https://gitter.im/exybore/exycss](https://gitter.im/exybore/exycss)  
 **Chat Discord (support et aide) :** [https://discord.gg/DhE3vaC](https://discord.gg/DhE3vaC)  
