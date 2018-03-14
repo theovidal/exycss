@@ -320,3 +320,7 @@
   width: 100% !important;
   flex-wrap: wrap;
 }
+
+.exy-grid__column {
+  flex-direction: column;
+}

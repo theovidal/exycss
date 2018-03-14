@@ -1,64 +1,25 @@
-button.exy-btn__classic {
-  background-color: #ffffff;
-  border: 1px black solid;
-  border-radius: 5px;
-}
-button.exy-btn__classic:hover {
-  background-color: #D6D6D6;
-  cursor: pointer;
-}
-button.exy-btn__classic:active {
-  background-color: #B3B3B3;
-  border: 1px black solid;
+div.exy-btn__group {
+  display:flex;
 }
 
-button.exy-btn__classic.exy-btn__r-left {
-  border-radius: 20px 0px 0px 20px;
-}
-button.exy-btn__classic.exy-btn__r-right {
-  border-radius: 0px 20px 20px 0px;
-}
-button.exy-btn__classic.exy-btn__r-all {
-  border-radius: 20px;
-}
-button.exy-btn__classic.exy-btn__r-none {
-  border-radius: 0px;
-}
-
-div.exy-btn__group button.exy-btn__classic.exy-btn__r-right {
+div.exy-btn__group button.exy-btn__flat.exy-btn__r-right {
   margin-left: -1px;
-  border-left-width: 0px;
+  border-left: 1px rgba(255, 255, 255, 0.3) solid;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
-div.exy-btn__group button.exy-btn__classic.exy-btn__r-left {
+div.exy-btn__group button.exy-btn__flat.exy-btn__r-left {
   margin-right: -1px;
-  border-right-width: 0px;
+  border-right: 1px rgba(255, 255, 255, 0.3) solid;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
-div.exy-btn__group button.exy-btn__classic.exy-btn__r-none {
+div.exy-btn__group button.exy-btn__flat.exy-btn__r-none {
   margin-left: -3px;
   margin-right: -3px;
-
-
-}
-
-button.exy-btn__classic.exy-btn__tiny {
-  padding: 1px;
-  font-size: 10px;
-}
-button.exy-btn__classic.exy-btn__small {
-  padding: 5px;
-  font-size: 12.5px;
-}
-button.exy-btn__classic.exy-btn__medium {
-  padding: 10px;
-  font-size: 13px;
-}
-button.exy-btn__classic.exy-btn__large {
-  padding: 20px;
-  font-size: 15px;
-}
-button.exy-btn__classic.exy-btn__xl {
-  padding: 32.5px;
-  font-size: 20px;
+  border-radius: 0;
+  border-left: 1px rgba(255, 255, 255, 0.3) solid;
+  border-right: 1px rgba(255, 255, 255, 0.3) solid;
 }
 
 button.exy-btn__flat {
@@ -69,9 +30,6 @@ button.exy-btn__flat {
     font-weight: 400;
     font-size: 15px;
     border-radius: 3px;
-    box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.75);
     border: 0px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -80,7 +38,13 @@ button.exy-btn__flat {
     cursor: pointer;
 }
 
-button.exy-btn__flat a, button.exy-btn__classic {
+button.exy-btn__flat.exy-btn__shadow {
+  box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.75);
+}
+
+button.exy-btn__flat a {
   color: #fff;
   text-decoration: none;
   display: block;
