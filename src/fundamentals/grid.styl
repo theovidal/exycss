@@ -1,0 +1,49 @@
+@media screen and (min-width: 1200px)   /* Large screen */
+  for num in (1..20)
+    .exy-grid__{num}-l
+      width: (num*5)% !important
+      min-width: (num*5)% !important
+      max-width: (num*5)% !important
+
+ 
+@media screen and (min-width: 992px)   /* Desktop */
+  for num in (1..20)
+    .exy-grid__{num}-d
+      width: (num*5)% !important
+      min-width: (num*5)% !important
+      max-width: (num*5)% !important
+   
+ 
+@media screen and (min-width: 600px) and (max-width: 991px)   /* Tablet */
+  for num in (1..20)
+    .exy-grid__{num}-t 
+      width: (num*5)% !important
+      min-width: (num*5)% !important
+      max-width: (num*5)% !important
+
+
+for num in (1..20)
+  .exy-grid__{num}-s  
+    width: (num*5)%
+    min-width: (num*5)%
+    max-width: (num*5)%
+ 
+
+
+.exy-grid__spaced  
+  margin-top: 10px
+  margin-bottom: 10px
+  margin-right: 40px
+  margin-left: 40px
+  width: 100%
+ 
+
+.exy-grid__container  
+  display: flex
+  width: 100% !important
+  flex-wrap: wrap
+ 
+
+.exy-grid__column  
+  flex-direction: column
+ 

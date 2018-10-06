@@ -1,0 +1,119 @@
+/* mobile nav DON'T SHOW IT */
+ul.exy-header__mobile-nav  
+  display: none
+  list-style-type: none
+
+  margin: 0px
+  padding-left: 5px
+  padding-bottom: 3px
+  padding-top: 3px
+  justify-content: space-around
+
+  border-bottom: 5px
+  border-color: grey
+  border-width: 1px
+ 
+ul.exy-header__mobile-nav li  
+  margin: 10px
+ 
+ul.exy-header__mobile-nav.exy-header__oneline-mobile li  
+  margin: 2px
+ 
+ul.exy-header__mobile-nav a.exy-header__link  
+  text-decoration: none
+  color: #fff
+  font-size: 15px
+  margin-left: 5px
+  margin-right: 5px
+
+ 
+
+/* header container */
+header.exy-header__container  
+  padding: 3px
+  height: 50px
+  display: flex
+  justify-content: space-between
+ 
+
+/* title box */
+header.exy-header__container div.exy-header__titler  
+  display: flex
+  align-items: center
+ 
+
+/* title */
+header.exy-header__container div.exy-header__titler span.exy-header__title  
+  font-weight: 400
+  color: #fff
+  font-size: 30px
+  margin-left: 5px
+ 
+header.exy-header__container div.exy-header__titler span.exy-header__title a  
+  color: inherit
+  text-decoration: none
+  font-weight: 400
+ 
+
+/* logo */
+header.exy-header__container div.exy-header__titler img.exy-header__logo  
+  height: 40px
+  width: 40px
+ 
+
+@media screen and (min-width: 600px)  
+  /* link container */
+  header.exy-header__container div.exy-header__link-container  
+    display: flex
+    align-items: center
+   
+
+  /* Link */
+  header.exy-header__container div.exy-header__link-container a.exy-header__link  
+    text-decoration: none
+    color: #fff
+    font-size: 17px
+    margin-left: 7.5px
+    margin-right: 7.5px
+
+   
+
+  /* hover link */
+  header.exy-header__container div.exy-header__link-container a.exy-header__link:hover  
+
+   
+
+  /* mobile button */
+  header.exy-header__container div.exy-header__mobile-menu  
+    display: none
+   
+ 
+@media screen and (max-width: 600px)  
+
+  /* title */
+  header.exy-header__container div.exy-header__titler img.exy-header__logo  
+    margin-left: -5px
+   
+
+  /* header container */
+  header.exy-header__container  
+    justify-content: space-between
+   
+
+  /* link container */
+  header.exy-header__container div.exy-header__link-container a.exy-header__link  
+    display: none
+   
+
+  /* mobile button */
+  header.exy-header__container div.exy-header__mobile-menu  
+    display: flex
+    align-items: center
+    margin-left: 5px
+
+   
+  header.exy-header__container div.exy-header__mobile-menu a.exy-header__mobile-btn  
+    color: #fff
+    text-decoration: none
+   
+ 

@@ -1,0 +1,29 @@
+@import '../utils/colors'
+
+for category, palette in $colors
+  for type, value in palette
+    .exy-color__{category + '-' + type + '-back'}
+      background-color: value
+      border-color: value
+      
+    .exy-color__{category + '-' + type}
+      color: value
+
+ 
+.exy-color__white  
+  color: #ffffff
+ 
+.exy-color__white-back  
+  background-color: #ffffff
+
+.exy-color__black  
+  color: #000000
+
+.exy-color__black-back  
+  background-color: #000000
+ 
+.exy-color__transparent  
+  color: rgba(255, 255, 255, 0)
+ 
+.exy-color__transparent-back  
+  background-color: rgba(255, 255, 255, 0)

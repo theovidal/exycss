@@ -1,0 +1,38 @@
+@import '../utils/colors'
+
+// for category, palette in $colors
+// 	for type, value in palette
+// 		div.exy-card__flat.exy-color__{category + '-' + type}
+// 			border-top: 5px value solid
+
+// 		div.exy-card__flat.exy-color__{category + '-' + type} p.exy-card__link a
+// 		div.big-modal.exy-color__{category + '-' + type} > p.exy-card__link a
+// 			background-color: value
+
+
+div.exy-card__container  
+	display: flex
+	justify-content: space-around
+	flex-wrap: wrap
+ 
+
+div.exy-card__flat  
+	border-radius: 2px
+	border-top-width: 5px
+	border-top-style: solid
+	min-width: 30%
+	background-color: #E3E3E3
+	color: black
+	
+	padding: 3px
+	margin-bottom: 20px
+ 
+
+div.exy-card__flat p.exy-card__link  
+	text-align: right
+ 
+div.exy-card__flat p.exy-card__link a, div.big-modal p.exy-card__link a  
+	padding: 5px 7.5px 5px 7.5px
+	color: #fff
+	text-decoration: none
+	border-radius: 2px
