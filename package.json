@@ -1,0 +1,12 @@
+{
+  "name": "exycss",
+  "description": "🌈 Simple and light front-end framework to make beautiful and flexible websites.",
+  "author": "exybore",
+  "version": "0.2.0",
+  "license": "MIT",
+  "homepage": "https://css.exybore.fr",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:exybore/exycss.git"
+  }
+}
