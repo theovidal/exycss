@@ -8,5 +8,13 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:exybore/exycss.git"
+  },
+  "scripts": {
+    "dev": "stylus --watch src/main.styl -o dist/exy.css",
+    "build": "uglifyjs --verbose --compress src/main.js -o dist/exy.min.js"
+  },
+  "devDependencies": {
+    "stylus": "^0.54.5",
+    "uglify-js": "^3.4.9"
   }
 }
