@@ -1,15 +1,16 @@
 <div align="center">
-	<a href="https://css.exybore.tk"><img src="exycss.png" alt="ExyCSS logo" width="200"></a>
+	<img src="exycss.png" alt="ExyCSS logo" width="200">
 	<p align="center">
 		<img src="https://img.shields.io/badge/license-MIT-orange.svg" alt="License">
 		<a href="https://discord.gg/wfyYYjC"><img src="https://img.shields.io/badge/chat-join%20now-blue.svg"></a>
 	</p>
 </div>
 
-ExyCSS is a CSS framework who simplify website development, while remaining beautiful and functional.
-Flexible, it allows you to design your websites easily and quickly.</p>
+ExyCSS is a front-end framework who simplify website development, while remaining beautiful and functional. Flexible, it allows you to design your websites easily and quickly.
 
-## ⤵ Installation guide
+## ⤵ Setup guide
+
+You can setup your project including ExyCSS with many options listed below.
 
 ### Option 1 : Clone the repository
 
@@ -45,7 +46,7 @@ import 'exycss/dist/exy.min.css'
 
 ### Import font and icons
 
-The framework uses the Roboto font, and Material Icons. Import them in your code :
+The framework uses the Roboto font, and the Material Icons. Import them in your code :
 
 ```html
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet"/>
