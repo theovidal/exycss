@@ -1,5 +1,7 @@
 # ExyCSS - Documentation
 
+- [Introduction](introduction.md)
+- [Setup](setup.md)
 - Fundamentals
   - [Syntax](fundamentals/syntax.md)
   - [Grid](fundamentals/grid.md)
