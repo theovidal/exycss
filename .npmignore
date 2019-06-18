@@ -1,3 +1,5 @@
 src/
 exycss.png
 index.html
+webpack.config.js
+.babelrc
